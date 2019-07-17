@@ -1,0 +1,6 @@
+===============================Dom Manipulation ====================
+
+document.query selector can be used for setting data to a css element in html page or for reading the data
+example document.querySelector("element-id").textContent = "the variable or the content"; //setting content
+		var k = document.querySelector("element-id").textContent; //reading the dom content
+		in the second case we say it's a getter because we get the value and in the first case it's setter because we set the value.
